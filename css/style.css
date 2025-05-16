@@ -51,4 +51,24 @@ body {
     padding: 20px;
     text-align: center;
   }
+  /* === Desktop Layout (Flexbox) === */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .middle-section {
+    display: flex;
+    gap: 10px;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  main {
+    flex: 2;
+  }
+}
+
   
